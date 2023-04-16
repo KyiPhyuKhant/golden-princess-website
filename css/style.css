@@ -1,0 +1,40 @@
+/* Sticky navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+    background-color: #343a40;
+}
+
+.dropdown-item {
+    color: #fff !important;
+}
+
+.dropdown-item:hover {
+    background-color: #007bff !important;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+    padding: 10px;
+    border-radius: 50%;
+    z-index: 99;
+}
+
+.back-to-top:hover {
+    background-color: #555;
+}
+
+.show {
+    display: block;
+}

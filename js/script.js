@@ -1,0 +1,13 @@
+$(document).ready(function () {
+    // Get the back-to-top button
+    var backToTopButton = $(".back-to-top");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 20) {
+            backToTopButton.addClass("show");
+        } else {
+            backToTopButton.removeClass("show");
+        }
+    });
+});
