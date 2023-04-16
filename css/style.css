@@ -7,6 +7,8 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
+    background: #654321;
 }
 
 /* Dropdown menu */
@@ -127,7 +129,7 @@
 }
 
 .footer {
-    background-color: #333;
+    background: #654321;
     color: #fff;
     padding: 40px 0;
 }
@@ -176,36 +178,28 @@
 }
 
 #team {
+    background-color: #f9f9f9;
     padding: 50px;
-    background-color: #fff;
-}
-
-#team h2 {
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 30px;
 }
 
 .team-member {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 50px;
 }
 
 .team-member img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
+    width: 100%;
+    max-width: 200px;
     border-radius: 50%;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .team-member h3 {
-    font-size: 24px;
     margin-bottom: 10px;
+    font-size: 24px;
 }
 
 .team-member p {
+    margin-bottom: 0;
     font-size: 18px;
 }
