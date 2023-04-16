@@ -1,3 +1,7 @@
+.header {
+    height: 56px;
+}
+
 /* Sticky navbar */
 .navbar {
     position: fixed;
@@ -18,6 +22,89 @@
     background-color: #007bff !important;
 }
 
+
+/* banner slider  */
+.banner-slider {
+    width: 100%;
+    height: 400px;
+}
+
+.banner-slider img {
+    height: 400px;
+    /* adjust as needed */
+}
+
+.slider-container {
+    padding: 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+    height: 400px;
+}
+
+
+/* Testimonial section  */
+.testimonial-section {
+    background-color: #f9f9f9;
+    padding: 50px;
+    text-align: center;
+}
+
+.testimonial-section h2 {
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.testimonial-container {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 0 20px;
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.testimonial-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.testimonial-author {
+    display: flex;
+    align-items: center;
+}
+
+.testimonial-author img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.author-info h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.author-info p {
+    font-size: 18px;
+    margin: 0;
+    color: #999;
+}
+
+
+/* Button styles */
+.slick-slider button {
+    display: none !important;
+}
+
+
 .back-to-top {
     position: fixed;
     bottom: 20px;
@@ -37,4 +124,33 @@
 
 .show {
     display: block;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.footer h3 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #fff;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
 }

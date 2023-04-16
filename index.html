@@ -6,8 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Golden Princess</title>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <!-- Add the Slick Slider CSS file -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+
+    <script src="node_modules/slick-carousel/slick/slick.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick.css" />
+
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/style.css">
 
@@ -15,67 +25,143 @@
 </head>
 
 <body>
-    <!-- Sticky menu bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Golden Princess</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Collections
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Rings</a>
-                        <a class="dropdown-item" href="#">Handchains</a>
-                        <a class="dropdown-item" href="#">Earrings</a>
-                        <a class="dropdown-item" href="#">Necklaces</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+    <div class="header">
+        <!-- Sticky menu bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Golden Princess</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            Collections
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Rings</a>
+                            <a class="dropdown-item" href="#">Handchains</a>
+                            <a class="dropdown-item" href="#">Earrings</a>
+                            <a class="dropdown-item" href="#">Necklaces</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
-    <!-- <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-12">
-                <h1>Welcome to Golden Princess</h1>
-                <p>We sell high-quality jewelry at affordable prices.</p>
+
+    <div class="body">
+        <!-- Add your banner images here -->
+        <section class="banner-slider">
+            <div><img src="images/1.jpg"></div>
+            <div><img src="images/2.jpg"></div>
+            <div><img src="images/3.jpg"></div>
+            <div><img src="images/4.jpg"></div>
+        </section>
+
+
+
+        <!-- Content of the page -->
+        <section class="container mt-5">
+            <h1>Welcome to Golden Priness Jewellery Shop</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie nunc eget eros pharetra, a lobortis
+                lorem aliquam. Nam euismod lorem id nibh hendrerit luctus. Proin vehicula nisi sit amet felis iaculis
+                rhoncus. Duis congue velit non justo facilisis, non suscipit purus hendrerit. In dictum mauris nec
+                libero
+                bibendum, eu blandit ante efficitur. Quisque ut odio lorem. Nulla sit amet nisi sit amet turpis aliquet
+                interdum.</p>
+            <p>Suspendisse posuere purus eget libero fringilla bibendum. Suspendisse laoreet, mi id maximus ultricies,
+                ipsum
+                velit mollis lorem, ut aliquet nibh nibh ac sapien. Etiam posuere libero eget nunc dapibus lobortis.
+                Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eu
+                nisl
+                vitae lectus gravida fermentum. Sed vitae enim quis velit lacinia pharetra. Sed fermentum leo vel turpis
+                commodo iaculis. Integer rhoncus velit euismod purus auctor commodo. Suspendisse potenti.</p>
+            <p>Cras blandit arcu sed purus auctor, sit amet pulvinar nibh lobortis. Donec eu elit elit. Sed sed
+                consequat
+                justo, at sagittis velit. Nulla facilisi. Aliquam vel justo et odio euismod finibus. Fusce a nisi neque.
+                Pellentesque dignissim nunc at nibh dignissim, nec placerat eros hendrerit. Integer vulputate, libero ac
+                laoreet porttitor, lectus metus venenatis nulla, sit amet scelerisque tellus nisl in nulla. Nam dapibus
+                blandit est, sit amet rutrum lacus suscipit vel.</p>
+        </section>
+
+        <section class="testimonial-section">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae hendrerit justo. Vivamus
+                            ultricies tincidunt sapien, vel luctus mauris ornare in."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50x50" alt="Testimonial Author">
+                        <div class="author-info">
+                            <h3>John Doe</h3>
+                            <p>CEO, XYZ Company</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-text">
+                        <p>"Ut aliquam massa nunc, ac auctor leo placerat id. Cras eget tristique orci. Sed non est
+                            nulla. Sed gravida ligula vel libero eleifend, a lacinia velit faucibus."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://via.placeholder.com/50x50" alt="Testimonial Author">
+                        <div class="author-info">
+                            <h3>Jane Doe</h3>
+                            <p>Marketing Director, ABC Company</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Column 1</h3>
+                    <ul>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Column 2</h3>
+                    <ul>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h3>Column 3</h3>
+                    <ul>
+                        <li><a href="#">Link 1</a></li>
+                        <li><a href="#">Link 2</a></li>
+                        <li><a href="#">Link 3</a></li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div> -->
-    <!-- Content of the page -->
-    <div class="container mt-5">
-        <h1>Welcome to Example Page</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed molestie nunc eget eros pharetra, a lobortis
-            lorem aliquam. Nam euismod lorem id nibh hendrerit luctus. Proin vehicula nisi sit amet felis iaculis
-            rhoncus. Duis congue velit non justo facilisis, non suscipit purus hendrerit. In dictum mauris nec libero
-            bibendum, eu blandit ante efficitur. Quisque ut odio lorem. Nulla sit amet nisi sit amet turpis aliquet
-            interdum.</p>
-        <p>Suspendisse posuere purus eget libero fringilla bibendum. Suspendisse laoreet, mi id maximus ultricies, ipsum
-            velit mollis lorem, ut aliquet nibh nibh ac sapien. Etiam posuere libero eget nunc dapibus lobortis.
-            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed eu nisl
-            vitae lectus gravida fermentum. Sed vitae enim quis velit lacinia pharetra. Sed fermentum leo vel turpis
-            commodo iaculis. Integer rhoncus velit euismod purus auctor commodo. Suspendisse potenti.</p>
-        <p>Cras blandit arcu sed purus auctor, sit amet pulvinar nibh lobortis. Donec eu elit elit. Sed sed consequat
-            justo, at sagittis velit. Nulla facilisi. Aliquam vel justo et odio euismod finibus. Fusce a nisi neque.
-            Pellentesque dignissim nunc at nibh dignissim, nec placerat eros hendrerit. Integer vulputate, libero ac
-            laoreet porttitor, lectus metus venenatis nulla, sit amet scelerisque tellus nisl in nulla. Nam dapibus
-            blandit est, sit amet rutrum lacus suscipit vel.</p>
-    </div>
+    </footer>
 
     <!-- Add the back-to-top button -->
     <a href="#" class="back-to-top">Back to Top</a>
@@ -87,6 +173,9 @@
 
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+    <!-- Add the Slick Slider JS file -->
+    <script type="text/javascript" src="slick/slick.min.js"></script>
 
     <!-- Custom JS -->
     <script src="js/script.js"></script>
