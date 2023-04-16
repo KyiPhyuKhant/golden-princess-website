@@ -154,3 +154,58 @@
 .footer ul li a:hover {
     text-decoration: underline;
 }
+
+
+/* About Us Page  */
+
+#about {
+    padding: 50px;
+    background-color: #f2f2f2;
+}
+
+#about h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+#about p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+#team {
+    padding: 50px;
+    background-color: #fff;
+}
+
+#team h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+.team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.team-member p {
+    font-size: 18px;
+}
