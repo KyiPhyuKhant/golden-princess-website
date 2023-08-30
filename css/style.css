@@ -1,5 +1,6 @@
 .header {
     height: 56px;
+    box-shadow: 0 2px 18px 0 rgba(129, 162, 182, .2);
 }
 
 /* Sticky navbar */
@@ -8,7 +9,21 @@
     top: 0;
     width: 100%;
     z-index: 1;
-    background: #494848;
+    background: #fff;
+}
+
+.navbar a.navbar-brand {
+    color: #e1bd58;
+}
+
+.navbar ul.navbar-nav .nav-link {
+    color: #000;
+}
+
+.navbar ul.navbar-nav .active>.nav-link,
+.navbar ul.navbar-nav .nav-link:focus,
+.navbar ul.navbar-nav .nav-link:hover {
+    color: #91191c;
 }
 
 /* Dropdown menu */
@@ -28,12 +43,17 @@
 /* banner slider  */
 .banner-slider {
     width: 100%;
-    height: 400px;
+    height: auto;
 }
 
 .banner-slider img {
-    height: 400px;
-    /* adjust as needed */
+    height: auto;
+    width: 100%;
+}
+
+.home_main {
+    text-align: center;
+    padding: 50px;
 }
 
 .slider-container {
@@ -42,7 +62,7 @@
 
 .slick-slide img {
     width: 100%;
-    height: 400px;
+    height: auto;
 }
 
 
@@ -102,9 +122,9 @@
 
 
 /* Button styles */
-.slick-slider button {
+/* .slick-slider button {
     display: none !important;
-}
+} */
 
 
 .back-to-top {
@@ -129,14 +149,18 @@
 }
 
 .footer {
-    background: #494848;
-    color: #fff;
+    background: #fff;
+    color: #000;
     padding: 40px 0;
+    box-shadow: 0 2px 18px 0 rgba(129, 162, 182, .2);
+    margin-top: 50px;
+    display: inline-block;
+    width: 100%;
 }
 
 .footer h3 {
     margin-bottom: 20px;
-    color: #fff;
+    color: #000;
 }
 
 .footer ul {
@@ -156,16 +180,43 @@
 .footer ul li a:hover {
     text-decoration: underline;
 }
+
 .widget-title {
     margin-top: -6px;
     margin-bottom: 23px;
 }
 
+/* product-slider   */
+.product-slider .slick-slide {
+    /* padding: 20px; */
+    height: auto;
+    /* border: 1px solid #333; */
+    margin: 10px;
+}
+
+.product-slider .slick-slide p {
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+/* .slick-dots {
+    position: absolute;
+    bottom: -25px;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+} */
+
 /* About Us Page  */
+.body.about-info {
+    background: #f9f9f9;
+}
 
 #about {
-    padding: 50px;
-    background-color: #f2f2f2;
+    padding: 6em;
 }
 
 #about h1 {
